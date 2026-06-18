@@ -1,1 +1,67 @@
-body{font-family:Arial,sans-serif}.hero{background:linear-gradient(135deg,#0b1f3a,#173d6b);color:#fff;padding:120px 0}.gold{color:#d4af37}.section-pad{padding:70px 0}.card{border:none;box-shadow:0 2px 12px rgba(0,0,0,.08)} footer{background:#0b1f3a;color:#fff;padding:30px 0}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Brand Palette Definitions */
+.bg-brand-dark { background-color: #0b1f3a !important; }
+.text-brand-orange { color: #ff7a00 !important; }
+.btn-brand-orange {
+    background-color: #ff7a00;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+.btn-brand-orange:hover {
+    background-color: #e06c00;
+    color: #ffffff;
+}
+
+/* Navbar Logo Custom Styling */
+.navbar-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Sections & Typography */
+.section-pad { padding: 80px 0; }
+.hero {
+    background: linear-gradient(135deg, #0b1f3a 0%, #16355c 100%);
+    color: #ffffff;
+    padding: 140px 0;
+}
+
+/* Cards & Elements */
+.card-professional {
+    border: none;
+    border-top: 4px solid #ff7a00;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+    background: #ffffff;
+}
+.card-professional:hover {
+    transform: translateY(-5px);
+}
+.info-card {
+    background-color: #ffffff;
+    border-left: 5px solid #ff7a00;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+}
+
+/* Form Styling */
+.form-container iframe {
+    width: 100%;
+    min-height: 800px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+}
+
+footer {
+    background: #0b1f3a;
+    color: rgba(255,255,255,0.7);
+    padding: 40px 0;
+    border-top: 3px solid #ff7a00;
+}
